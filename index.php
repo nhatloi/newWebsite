@@ -1,4 +1,4 @@
-<!-- <?php 
+<?php 
 	@session_start();
 
  	include('include/ketnoi.php'); 
@@ -24,7 +24,7 @@
 			$thongbaoTK="Sai Tên Đăng Nhập Hoặc Mật Khẩu";
 	}
 	
-?> -->
+?>
 <!DOCTYPE html>
 <html>
 <head>
