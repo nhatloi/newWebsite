@@ -1,9 +1,9 @@
 <?php
-define('DB_SERVER','localhost');
-define('DB_USER','root');
-define('DB_PASS' ,'');
-define('DB_NAME', 'traicay');
-$ung=mysql_connect('localhost','root','') or die('Khong The Ket Noi Voi May Chu');
-$strSQL=mysql_select_db('traicay',$ung);
+define('DB_SERVER','mysql5039.site4now.net');
+define('DB_USER','a706a4_traicay');
+define('DB_PASS' ,'1q2w3e4r');
+define('DB_NAME', 'db_a706a4_traicay');
+$ung=mysql_connect('mysql5039.site4now.net','a706a4_traicay','1q2w3e4r') or die('Khong The Ket Noi Voi May Chu');
+$strSQL=mysql_select_db('db_a706a4_traicay',$ung);
 mysql_query("SET NAMES 'utf8'");
 ?>
