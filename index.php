@@ -1,3 +1,7 @@
+
+<!DOCTYPE html>
+<html>
+<body>
 <?php 
 	@session_start();
  	require ('include/cc.php'); 
@@ -6,10 +10,6 @@
 	 
 	
 ?>
-<!DOCTYPE html>
-<html>
-<body>
-
 <h1>The input element</h1>
 
 <form action="/action_page.php">
