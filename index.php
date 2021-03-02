@@ -1,6 +1,6 @@
 <?php 
 	@session_start();
- 	 require('include/ketnoi.php'); 
+ 	 include('include/ketnoi.php'); 
 	//kiem Tra Dang Nhap
 	$thongbaoTK="";
 	 
