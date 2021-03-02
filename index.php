@@ -1,6 +1,6 @@
 <?php 
 	@session_start();
- 	require ('include/cc.php'); 
+ 	require ('include/ketnoi.php'); 
 	//kiem Tra Dang Nhap
 	$thongbaoTK="";
 	if(isset($_POST['txttendangnhap']) && isset($_POST['txtpass']))
@@ -12,10 +12,10 @@
 		$khachhang=mysql_query($strSQL,$ung);
 		
 		//Kiem Tra Du Lieu-Neu Co Luu Vao SS-Neu Khong Bao Loi//
-		if(mysqli_num_rows($khachhang)>0)
+		if(mysql_num_rows($khachhang)>0)
 		{
 			//lay ten luu vao SS//
-			$rowDN=mysqli_fetch_array($khachhang);
+			$rowDN=mysql_fetch_array($khachhang);
 			$_SESSION['hovaten']=$rowDN['ho_kh']." ".$rowDN['ten_kh'];
 			$_SESSION['makhachhang']=$rowDN['ma_kh'];
 		}
