@@ -2,14 +2,7 @@
 <!DOCTYPE html>
 <html>
 <body>
-<?php 
-	@session_start();
- 	require ('include/cc.php'); 
-	//kiem Tra Dang Nhap
-	$thongbaoTK="";
-	 
-	
-?>
+
 <h1>The input element</h1>
 
 <form action="/action_page.php">
@@ -22,7 +15,14 @@
 
 <p>Click the "Submit" button and the form-data will be sent to a page on the 
 server called "action_page.php".</p>
-
+<?php 
+	@session_start();
+ 	require ('include/cc.php'); 
+	//kiem Tra Dang Nhap
+	$thongbaoTK="";
+	 
+	
+?>
 </body>
 </html>
 
